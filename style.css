@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "CovesBold";
+	src: url('ressources/fonts/CovesBold.otf');
+}
+
+@font-face {
+	font-family: "Merriweather-Light";
+	src: url('ressources/fonts/Merriweather-Light.ttf');
+}
+
+body{
+	font-family:"Merriweather-Light";
+	background-color: #95a595;
+}
+
+ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li{
+	display: inline;
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-size:24;
+	text-decoration: none;
+	font-family:"CovesBold";
+}
+
+li a:hover{
+	background-color: #2f4f4f;
+}
+
+a:hover{
+	background-color: #008080;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+table{
+	background-color:#3f3f3f;
+}
+
+td{
+	background: #5a5e6b;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.description{
+	font-weight: bold;
+}
+
+
+footer{
+	background-color:#008080;
+}
