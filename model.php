@@ -3,7 +3,7 @@
 /* regex tracteur #1[A-Z][A-Z][A-Z][0-9][0-9][0-9]#
 regex remorque #Q[A-Z][A-Z][A-Z][0-9][0-9][0-9]# 
 */
-require('controller.php');
+
 
 function dbConnect(){
 	try{

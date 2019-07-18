@@ -5,7 +5,6 @@
             <link rel="stylesheet" type="text/css" href="style.css" media="all"/>
     <title>TransporterApp</title>
     <?php 
-    require('model.php'); 
     include('menu.php');
     ?>
 </head>
