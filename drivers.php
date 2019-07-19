@@ -1,5 +1,4 @@
 <body>
-<!-- GH -->
 <?php
 require('header.php');
 $drivers = getDrivers();
