@@ -1,4 +1,4 @@
-<form method="post" action="create-orders.php">
+<form method="post" action="index.php?action=createOrders">
 	<table>
 		<tr><td>Commande</td></tr>
 		<tr><td>Marque</td>
